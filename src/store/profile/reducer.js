@@ -1,7 +1,7 @@
 import { profileActionTypes } from "./actions";
 
 const initialState = {
-  profile: {name: 'Success'},
+  profile: null,
   theme: 'light'
 }
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Profile } from './components';
+import { Profile, LoginForm } from './components';
 import { Provider } from 'react-redux';
 import { store } from './store';
 
@@ -9,6 +9,7 @@ function App() {
     <Provider store={store}>
       <div className="App">
         <Profile />
+        <LoginForm />
       </div>
     </Provider>
   );
